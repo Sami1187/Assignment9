@@ -1,0 +1,416 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* fonts used as given in textbook */
+    font-family: Arial, verdana, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    background-image: url("Images/JJ2.jpg");
+    background-size: cover;
+
+}
+
+header {
+    line-height: 150px;
+    background-color: #5c6362;
+    text-align: left;
+    background-repeat: no-repeat;
+
+}
+
+#logo3 {
+    background-color: #323333;
+}
+
+#Prettyroads {
+    background-image: url("Prettyroads.jpg");
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+#mugs1 {
+    background-image: url("mugs1.jpg");
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+#heroguitar {
+    background-image: url("heroguitar.jpg");
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+nav a:link {
+    color: rgba(0, 0, 0, 0.932);
+}
+
+nav a:visited {
+    color: #1f0585;
+}
+
+nav a:hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 1px;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+nav {
+
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-left: 55px;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 1em;
+    text-indent: 1px;
+    text-shadow: 3px 3px 5px #8f7b7b;
+    float:left;
+    width: 200px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/*to remove underline from the hyperlinks*/
+
+footer {
+    /*10px of bottom padding and a solid 2px top border*/
+    padding-bottom: 10px;
+    border-top: 2px solid;
+    background-color: #5c6362;
+    color: whitesmoke;
+    font-size: 0.60em;
+    font-style: italic;
+    text-decoration-line: underline;
+    text-align: center;
+    text-indent: 1px;
+    text-shadow: 3px 3px 5px #000000;
+
+}
+
+.wrapper {
+
+    background-color: #323333;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 3px 3px 3px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4 {
+    background-color: #5c6362;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-bottom: 0.25em;
+    color: whitesmoke;
+    text-indent: 1px;
+    text-shadow: 3px 3px 5px #000000;
+    border-bottom: 2px solid #221811;
+    text-align: center;
+    text-transform: uppercase;
+    clear: left;
+
+}
+
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 2em;
+    margin-left: 200px;
+    display: block;
+    background-color: rgba(230, 99, 47, 0.9);
+    text-indent: 1px;
+    text-shadow: 3px 3px 5px #020202;
+    text-align: left;
+}
+
+main h2,
+main h3,
+main h4,
+main p,
+main div,
+main ul,
+main dl {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+header,
+nav,
+main,
+footer {
+    display: block;
+}
+
+/*img {
+    padding-left: 0px;
+    padding-right: 10px;}*/
+
+
+h2 {
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 1px;
+    text-shadow: 3px 3px 5px #000000;
+    text-align: left;
+}
+
+ul {
+
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*list-style: inside url('IC1.png');*/
+    text-indent: 1px;
+    text-align: left;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    background-color: rgba(238, 214, 214, 0.5);
+    padding: 1px 1px;
+}
+
+p {
+    color: whitesmoke;
+    text-align: left;
+    font-size: .90em;
+    text-indent: 1px;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+.floatleft {
+    float: left;
+    padding: 0px 20px 20px 0px;
+}
+
+#mobile {
+    display: none;
+}
+
+#desktop {
+    display: inline;
+}
+
+table{
+    text-align: center;
+    width: 90%;
+    border-spacing: 0;
+    background-color: rgba(160, 71, 36, 0.9);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  td, th { padding: 10px;} 
+      
+tr:nth-of-type(odd) { background-color: #323333;}
+tr:first-of-type{background-color: #323333;
+color: whitesmoke;}
+  
+@media only screen and (max-width: 1024px) {
+
+    body {
+
+        font-family: Arial, verdana, sans-serif;
+        color: whitesmoke;
+        text-align: center;
+        background-image: none;
+        margin: 0px;
+    }
+
+    .wrapper {
+
+        background-color: #323333;
+        width: auto;
+        min-width: 0px;
+        box-shadow: none;
+        width: 80%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    header {
+        line-height: 160px;
+        background-color: #5c6362;
+        text-align: left;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        border-bottom: 5px solid #FEF6C2;
+    }
+
+    h1 {
+        margin-top: 0px;
+        margin-bottom: 1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 220px;
+        font-size: 2.5em;
+        color: whitesmoke;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-indent: 1px;
+        text-shadow: 3px 3px 5px #000000;
+    }
+
+    nav {
+        margin: 10px;
+        font-size: 1.3em;
+        padding-top: 0px;
+
+        font-weight: bold;
+        text-align: center;
+        word-spacing: 1em;
+        text-indent: 1px;
+        text-shadow: 3px 3px 5px #8f7b7b;
+        float: none;
+        width: auto;
+
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav a {
+        padding: 1em;
+        width: 8em;
+        font-weight: bold;
+        border-style: none;
+        text-decoration: none;
+    }
+
+    nav ul {
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+        padding-left: 0px;
+    }
+
+    #Prettyroads {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #mugs1 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #heroguitar {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    main {
+        margin: 0px;
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    header {
+        line-height: 70px;
+        background-color: #5c6362;
+        /*background-image: url("cup.jpg");*/
+
+    }
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    nav {
+        margin: 0px;
+    }
+
+    nav a {
+        display: block;
+        padding: 0.2em;
+        width: auto;
+        border-bottom: 1px;
+        border-color: whitesmoke;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    main {
+        padding-top: 1px;
+    }
+
+    h2 {
+        padding-top: 0.5em;
+        padding-right: 0em;
+        padding-bottom: 0em;
+        padding-left: 0.5em;
+        margin-right: 0.5em;
+    }
+
+    .details {
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+
+    #Prettyroads {
+        background-image: none;
+        height: auto;
+    }
+
+    #mugs1 {
+        background-image: none;
+        height: auto;
+    }
+
+    #heroguitar {
+        background-image: none;
+        height: auto;
+    }
+
+    .floatleft {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    #mobile {
+        display: inline;
+    }
+
+    #desktop {
+        display: none;
+    }
+}
